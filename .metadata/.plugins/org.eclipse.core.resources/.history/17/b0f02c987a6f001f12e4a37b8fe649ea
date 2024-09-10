@@ -1,0 +1,23 @@
+package relacionais_scanner;
+
+import java.util.Scanner;
+
+public class Relacionais {
+
+	public static void main(String[] args) {
+		//atribuição de valores
+		Scanner number = new Scanner(System.in);
+		int escolha;
+		System.out.printf("Digite um número: ");
+		escolha = number.nextInt();
+		
+		int valor;
+		System.out.printf("Digiter outro número: ");
+		valor = number.nextInt();
+		
+		//teste lógico
+		System.out.println("O valor %d é maior que o %d? %b\n", escolha, number, escolha > number);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package operadores_incr_e_decr;
+
+public class OperadoresINCReDECR {
+	
+	public static void main(String[] args) {
+		int num = 10;
+		int result = 0;
+		
+		System.out.println("Valor original: " + result);
+		
+		result = num++; //primeiro atribui, depois incrementa
+		System.out.println("Valor de num após o incremento: " + num);
+		System.out.println("Valor de result após o incremento: " + result);
+		
+		
+	}
+}

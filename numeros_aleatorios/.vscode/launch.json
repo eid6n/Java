@@ -1,0 +1,19 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "RandomClass",
+            "request": "launch",
+            "mainClass": "numeros_aleatorios/numeros_aleatorios.RandomClass",
+            "projectName": "numeros_aleatorios"
+        }
+    ]
+}

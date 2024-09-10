@@ -1,0 +1,9 @@
+package operadores_de_atribuição;
+
+public class operadores {
+	public static void main(String[] args) {
+		int num = 0;
+		System.out.println("Valor originial: " + num);
+		num +=3;
+	}
+}

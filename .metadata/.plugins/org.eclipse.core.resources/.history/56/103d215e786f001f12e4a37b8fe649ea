@@ -1,0 +1,14 @@
+package operadores_relacionais;
+
+public class Operadores_Relacionais {
+
+	public static void main(String[] args) {
+		int x = 10;
+		int k = 20;
+		System.out.printf("x é igual a 10? %b\n", x == 10);
+		
+		
+
+	}
+
+}

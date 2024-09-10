@@ -1,0 +1,19 @@
+package relacionais_scanner;
+
+import java.util.Scanner;
+
+public class Relacionais {
+
+	public static void main(String[] args) {
+		Scanner number = new Scanner(System.in);
+		int escolha;
+		System.out.println("Digite um número: ");
+		escolha = number.nextInt();
+		
+		int valor;
+		System.out.println("Digiter outro número: ");
+		valor = number.nextInt();
+		
+	}
+
+}
